@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="screen.css">
+    <script src="index.js"></script>
+    <title>Pozitivus Landing Page</title>
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <!-- Header -->
+
+        <header>
+            <div class="logo">
+                <a href="#"><img src="images/logo.png"></a>
+            </div>
+
+            <div class="navbar desktop-hidden">
+<!-- Desktop Menu -->
+                <nav>
+                    <ul>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#usecases">Use Cases</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </nav>
+                <button class="btn-secondary">Request a quote</button>
+            </div>
+
+<!-- Mobile Menu -->
+
+                <!-- Trying to make hamburger menu - might not work -->
+                <div class="navbar-mobile mobile">
+                    <div class="container nav-container">
+                        <input class="checkbox" type="checkbox"/>
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>
+                        <nav>
+                            <ul class="menu-items">
+                                <li><a href="#aboutus">About Us</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#usecases">Use Cases</a></li>
+                                <li><a href="#pricing">Pricing</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+
+        </header>
+
+        <!-- Main Section -->
+
+        <section class="main">
+            <div class="main-content">
+                <h1>Navigating the digital landscape for success</h1>
+                <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                <button class="btn-primary">Book a consultation</button>
+            </div>
+            <div class="main-image">
+                <img src="images/Main%20Section%20Illustration.png">
+            </div>
+        </section>
+        <section class="logotypes">
+            <div class="logotypes">
+                <img src="images/Company logo Amazon.png">
+                <img src="images/Company logo Dribble.png">
+                <img src="images/Company logo Hubspot.png">
+                <img src="images/Company logo Notion.png">
+                <img src="images/Company logo Netflix.png">
+                <img src="images/Company logo Zoom.png">
+            </div>
+        </section>
+
+        <!-- Services Section -->
+
+        <section class="section services">
+            <div class="section-title">
+                <h2>Services</h2>
+                <p class="section-description">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+            </div>
+            <div class="services-cards">
+                    <div class="service-card seo">
+                        <div class="services-content">
+                            <div class="services-name">
+                                <span class="highlight-style-1">Search engine</span> <br>
+                                <span class="highlight-style-1">optimization</span>
+                            </div>
+                            <a href="#seo" class="services-learn-more">
+                                <img src="images/Arrow%20icon.png">
+                                Learn more
+                            </a>
+                        </div>
+                        <div class="services-image">
+                            <img src="images/Illustration.png">
+                        </div>
+                    </div>
+
+                    <div class="service-card ppc-ad">
+                        <div class="services-content">
+                            <div class="services-name">
+                                <span class="highlight-style-2">Pay-per-click</span> <br>
+                                <span class="highlight-style-2">advertising</span>
+                            </div>
+                            <a href="#ppc" class="services-learn-more">
+                                <img src="images/Arrow%20icon.png">
+                                Learn more
+                            </a>
+                        </div>
+                        <div class="services-image">
+                            <img src="images/Illustration (1).png">
+                        </div>
+                    </div>
+
+                    <div class="service-card smm">
+                        <div class="services-content">
+                            <div class="services-name">
+                                <span class="highlight-style-2">Social Media</span> <br>
+                                <span class="highlight-style-2">Marketing</span>
+                            </div>
+                            <a href="#contentcreation" class="services-learn-more">
+                                <img src="images/Arrow%20icon%20reverse.png">
+                                Learn more
+                            </a>
+                        </div>
+                        <div class="services-image">
+                            <img src="images/Illustration (2).png">
+                        </div>
+                    </div>
+
+                    <div class="service-card email-marketing">
+                        <div class="services-content">
+                            <div class="services-name">
+                                <span class="highlight-style-1">Email</span> <br>
+                                <span class="highlight-style-1">Marketing</span>
+                            </div>
+                            <a href="#emailmarketing" class="services-learn-more">
+                                <img src="images/Arrow%20icon.png">
+                                Learn more
+                            </a>
+                        </div>
+                        <div class="services-image">
+                            <img src="images/Illustration (3).png">
+                        </div>
+                    </div>
+
+                    <!-- TODO: add div as a wrapper to spans and change service learn more to link -->
+                    <div class="service-card content-creation">
+                        <div class="services-content">
+                            <div class="services-name">
+                                <span class="highlight-style-2">Content</span> <br>
+                                <span class="highlight-style-2">Creation</span>
+                            </div>
+                                <a href="#contentcreation" class="services-learn-more">
+                                    <img src="images/Arrow%20icon.png">
+                                    Learn more
+                                </a>
+                        </div>
+                        <div class="services-image">
+                            <img src="images/Illustration (4).png">
+                        </div>
+                    </div>
+
+                    <div class="service-card analytics-tracking">
+                       <div class="services-content">
+                           <div class="services-name">
+                               <span class="highlight-style-2">Analytics and</span> <br>
+                               <span class="highlight-style-2">Tracking</span>
+                           </div>
+                               <a href="#analyticsandtracking" class="services-learn-more">
+                                   <img src="images/Arrow%20icon%20reverse.png">
+                                   Learn more
+                               </a>
+                       </div>
+                        <div class="services-image">
+                            <img src="images/Illustration (5).png">
+                        </div>
+                    </div>
+            </div>
+
+            <!-- Free Proposal -->
+
+            <div class="free-proposal">
+                <div class="main-content">
+                    <h3>Let’s make things happen</h3>
+                    <p>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+
+                    <button class="btn-primary">Get your free proposal</button>
+                </div>
+
+                <div class="free-proposal-image">
+                    <img src="images/Free%20Proposal%20Illustration.png">
+                </div>
+            </div>
+        </section>
+
+        <!-- Working Process Section -->
+
+        <section class="section working-process">
+            <div class="section-title">
+                <h2>Our Working Process </h2>
+                <p>Step-by-Step Guide to Achieving Your Business Goals</p>
+            </div>
+
+            <div class="process-acc">
+
+                <div class="process-cards">
+                    <div class="process-heading">
+                        <div class="process-title">
+                            <span class="process-title-no">01</span>
+                            <span class="process-title-name">Consultation</span>
+                        </div>
+                        <div class="process-reveal">
+                            <img src="images/Plus icon.png">
+                        </div>
+                    </div>
+                    <!--           active state         -->
+                    <hr class="process-line">
+                    <div class="process-description">
+                        <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                    </div>
+                </div>
+
+                <div class="process-cards">
+                    <div class="process-heading">
+                        <div class="process-title">
+                            <span class="process-title-no">02</span>
+                            <span class="process-title-name">Research and Strategy Development</span>
+                        </div>
+                        <div class="process-reveal">
+                            <img src="images/Plus icon.png">
+                        </div>
+                    </div>
+                    <!--           active state         -->
+                    <hr class="process-line">
+                    <div class="process-description">
+                        <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                    </div>
+                </div>
+
+                <div class="process-cards">
+                    <div class="process-heading">
+                        <div class="process-title">
+                            <span class="process-title-no">03</span>
+                            <span class="process-title-name">Implementation</span>
+                        </div>
+                        <div class="process-reveal">
+                            <img src="images/Plus icon.png">
+                        </div>
+                    </div>
+                    <!--           active state         -->
+                    <hr class="process-line">
+                    <div class="process-description">
+                        <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                    </div>
+                </div>
+
+                <div class="process-cards">
+                    <div class="process-heading">
+                        <div class="process-title">
+                            <span class="process-title-no">04</span>
+                            <span class="process-title-name">Monitoring and Optimization</span>
+                        </div>
+                        <div class="process-reveal">
+                            <img src="images/Plus icon.png">
+                        </div>
+                    </div>
+                    <!--           active state         -->
+                    <hr class="process-line">
+                    <div class="process-description">
+                        <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                    </div>
+                </div>
+
+                <div class="process-cards">
+                    <div class="process-heading">
+                        <div class="process-title">
+                            <span class="process-title-no">05</span>
+                            <span class="process-title-name">Reporting and Communication</span>
+                        </div>
+                        <div class="process-reveal">
+                            <img src="images/Plus icon.png">
+                        </div>
+                    </div>
+                    <!--           active state         -->
+                    <hr class="process-line">
+                    <div class="process-description">
+                        <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                    </div>
+                </div>
+
+                <div class="process-cards">
+                    <div class="process-heading">
+                        <div class="process-title">
+                            <span class="process-title-no">06</span>
+                            <span class="process-title-name">Continual Improvement</span>
+                        </div>
+                        <div class="process-reveal">
+                            <img src="images/Plus icon.png">
+                        </div>
+                    </div>
+                    <!--           active state         -->
+                    <hr class="process-line">
+                    <div class="process-description">
+                        <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+
+        <section class="section contact-us">
+                <div class="section-title">
+                    <h2>Contact Us</h2>
+                    <p>Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
+                </div>
+
+                <div class="contact-us-block">
+                    <form action="/action_page.php" class="contact-us-form">
+                        <div class="contact-us-radio">
+                            <label class="container"><p>Say Hi</p>
+                                <input type="radio" checked="checked" name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container"><p>Get a Quote</p>
+                                <input type="radio" name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="contact-us-input">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Name">
+
+                            <label for="email">Email*</label>
+                            <input type="text" placeholder="Email" name="email" id="email" required>
+
+                            <label for="message">Message*</label>
+                            <textarea id="message" name="message" placeholder="Message"></textarea>
+
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                    <div class="contact-us-image">
+                        <img src="images/Contact%20Illustration.png">
+                    </div>
+                </div>
+            </section>
+
+        <!-- Footer -->
+
+        <footer class="section">
+            <div class="footer-block">
+                <div class="footer-top">
+                    <div class="footer-logo">
+                        <a href="#"><img src="images/logo.png"></a>
+                    </div>
+                    <div class="footer-navbar">
+                        <nav>
+                            <ul>
+                                <li><a href="#aboutus">About Us</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#usecases">Use Cases</a></li>
+                                <li><a href="#pricing">Pricing</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-icons">
+                        <img src="images/Social icon.png">
+                        <img src="images/Social icon (1).png">
+                        <img src="images/Social icon (2).png">
+                    </div>
+                </div>
+
+                    <div class="footer-main-content">
+                        <div class="footer-contact">
+                            <span class="footer-highlight">Contact us:</span>
+                            <span>Email: info@positivus.com</span>
+                            <span>Phone: 555-567-8901</span>
+                            <span>Address: 1234 Main St<br>Moonstone City, Stardust State 12345</span>
+                        </div>
+
+                        <div class="footer-subscribe">
+                            <form action="/action_page.php">
+                                <input type="text" placeholder="Email" name="email" class="footer-email" required>
+                                <button type="submit" class="btn-tertiary">Subscribe to news</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="footer-rights">
+                        <span>© 2023 Positivus. All Rights Reserved.</span>
+                        <span>Privacy Policy</span>
+                    </div>
+
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
