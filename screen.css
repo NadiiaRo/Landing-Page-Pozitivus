@@ -22,18 +22,19 @@
         width: 100%;
     }
 
-    .logotypes {
+    .logos {
         flex-wrap: wrap;
         gap: 12%;
     }
 
-    .logotypes img {
+    .logos img {
         margin: 0 auto;
     }
 
+
     /* Services */
 
-    .services-cards {
+    .services-grid {
         grid-template-columns: 1fr;
     }
 
@@ -75,7 +76,7 @@
     /* Styles */
 
     h1 {
-        font-size: 43px;
+        font-size: 42px;
         font-weight: 600;
     }
 
@@ -108,18 +109,22 @@
         color: #191A23;
     }
 
+    .section-title {
+        flex-direction: column;
+    }
+
     /* Header */
 
     .logo {
         width: 32%;
     }
 
-    .desktop-hidden {
+    .desktop-only {
         display: none;
     }
 
-    /* MENU TEST */
 
+    /* MENU TEST */
 
     .navbar-mobile {
         display: block;
@@ -248,18 +253,16 @@
     }
 
 
+    /* Hero Section */
 
-
-
-    /* Main Section */
-
-    .main {
+    .hero {
         flex-direction: column;
     }
 
-    .main-content, .main-image {
+    .hero-content, .hero-image {
         width: 100%;
     }
+
 
     /* Services Section */
 
@@ -271,7 +274,7 @@
         width: 100%;
     }
 
-    .services-cards {
+    .services-grid {
         display: flex;
         flex-direction: column;
         gap: 40px;
@@ -280,6 +283,7 @@
     .free-proposal-image {
         display: none;
     }
+
 
     /* Process Section */
 
@@ -295,4 +299,20 @@
         font-size: 18px;
     }
 
+    .working-process {
+        flex-direction: column;
+    }
+
+    .contact-us-block {
+        width: 100%;
+    }
+
+    .contact-us-image {
+        display: none;
+    }
+
+    .services, .case-studies, .working-process, .contact-us {
+        & .section-title p {
+            width: 100%;
+        }
 }
